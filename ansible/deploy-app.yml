@@ -1,0 +1,15 @@
+---
+- name: Deploy ShopSmart App
+  hosts: all
+  become: true
+  tasks:
+    - name: Copy app files to server
+      synchronize:
+        src: ../
+        dest: /opt/shopsmart/
+        recursive: yes
+
+    - name: Run Docker Compose
+      command: docker-compose up -d
+      args:
+        chdir: /opt/shopsmart/ 
