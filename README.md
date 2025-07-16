@@ -31,4 +31,9 @@ ShopSmart is a scalable e-commerce platform demonstrating real-world DevOps prac
 
 ## Deployment
 - See `/ansible/` for server automation
-- See CI/CD pipeline for automated deployment 
+- See CI/CD pipeline for automated deployment
+
+## Architecture Diagram:
+<img width="1833" height="3840" alt="Untitled diagram _ Mermaid Chart-2025-07-16-043745" src="https://github.com/user-attachments/assets/2e6c526b-15c3-4f0e-8581-f0120fdca7f3" />
+
+
